@@ -1,0 +1,1 @@
+prueba<?php /**PATH C:\xampp\htdocs\project-ordereasy\4_T\OrderEasyL\resources\views\inicio.blade.php ENDPATH**/ ?>

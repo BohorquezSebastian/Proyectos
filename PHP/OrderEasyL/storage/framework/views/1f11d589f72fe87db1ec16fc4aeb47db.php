@@ -1,0 +1,1 @@
+lista inventario<?php /**PATH C:\xampp\htdocs\project-ordereasy\4_T\OrderEasyL\resources\views\inventario\indexI.blade.php ENDPATH**/ ?>

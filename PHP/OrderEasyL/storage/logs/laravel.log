@@ -1,0 +1,473 @@
+[2024-06-23 19:54:47] local.ERROR: Class "CreateUsersTable" not found {"exception":"[object] (Error(code: 0): Class \"CreateUsersTable\" not found at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php:517)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(369): Illuminate\\Database\\Migrations\\Migrator->resolvePath('C:\\\\xampp\\\\htdocs...')
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(298): Illuminate\\Database\\Migrations\\Migrator->runDown('C:\\\\xampp\\\\htdocs...', Object(stdClass), false)
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(242): Illuminate\\Database\\Migrations\\Migrator->rollbackMigrations(Array, Array, Array)
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(61): Illuminate\\Database\\Migrations\\Migrator->rollback(Array, Array)
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\RollbackCommand.php(60): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\RollbackCommand->handle()
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\RollbackCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#20 {main}
+"} 
+[2024-06-23 20:04:53] local.ERROR: Command "make:modelpqr" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:modelpqr\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php:702)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(258): Symfony\\Component\\Console\\Application->find('make:modelpqr')
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2024-06-23 22:31:03] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:813)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#34 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:571)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(571): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(800): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `v...', Array)
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 2, false)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#36 {main}
+"} 
+[2024-06-23 22:31:47] local.ERROR: Command "miigrate" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"miigrate\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php:702)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(258): Symfony\\Component\\Console\\Application->find('miigrate')
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2024-06-23 22:31:56] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:813)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#34 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:571)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(571): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(800): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `v...', Array)
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#36 {main}
+"} 
+[2024-06-23 22:33:43] local.ERROR: Command "miigrate" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"miigrate\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php:702)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(258): Symfony\\Component\\Console\\Application->find('miigrate')
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2024-06-23 22:33:50] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProducto` varchar(255) not null, `NombreProducto` varchar(255) not null, `precioProducto` int not null, `cantidadProducto` int not null, `precioProductoTotal` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:813)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#34 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:571)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(571): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(800): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `v...', Array)
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#36 {main}
+"} 
+[2024-06-23 22:34:37] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProductoV` varchar(255) not null, `NombreProductoV` varchar(255) not null, `precioProductoV` int not null, `cantidadProductoV` int not null, `precioProductoTotalV` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' (Connection: mysql, SQL: create table `ventas` (`id` bigint unsigned not null auto_increment primary key, `idProductoV` varchar(255) not null, `NombreProductoV` varchar(255) not null, `precioProductoV` int not null, `cantidadProductoV` int not null, `precioProductoTotalV` int not null, `created_at` timestamp null, `updated_at` timestamp null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci') at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:813)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#34 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'created_at' at C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:571)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(571): PDOStatement->execute()
+#1 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(800): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('create table `v...', Array)
+#2 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(767): Illuminate\\Database\\Connection->runQueryCallback('create table `v...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(560): Illuminate\\Database\\Connection->run('create table `v...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Blueprint.php(109): Illuminate\\Database\\Connection->statement('create table `v...')
+#5 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(564): Illuminate\\Database\\Schema\\Blueprint->build(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Schema\\Grammars\\MySqlGrammar))
+#6 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Schema\\Builder.php(418): Illuminate\\Database\\Schema\\Builder->build(Object(Illuminate\\Database\\Schema\\Blueprint))
+#7 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(357): Illuminate\\Database\\Schema\\Builder->create('ventas', Object(Closure))
+#8 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\database\\migrations\\2024_06_23_200231_create_ventas_table.php(14): Illuminate\\Support\\Facades\\Facade::__callStatic('create', Array)
+#9 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(476): Illuminate\\Database\\Migrations\\Migration@anonymous->up()
+#10 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(402): Illuminate\\Database\\Migrations\\Migrator->runMethod(Object(Illuminate\\Database\\MySqlConnection), Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#11 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(411): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#12 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->runMigration(Object(Illuminate\\Database\\Migrations\\Migration@anonymous), 'up')
+#13 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\View\\Components\\Task.php(40): Illuminate\\Database\\Migrations\\Migrator->Illuminate\\Database\\Migrations\\{closure}()
+#14 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(739): Illuminate\\Console\\View\\Components\\Task->render('2024_06_23_2002...', Object(Closure))
+#15 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(212): Illuminate\\Database\\Migrations\\Migrator->write('Illuminate\\\\Cons...', '2024_06_23_2002...', Object(Closure))
+#16 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(179): Illuminate\\Database\\Migrations\\Migrator->runUp('C:\\\\xampp\\\\htdocs...', 1, false)
+#17 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(122): Illuminate\\Database\\Migrations\\Migrator->runPending(Array, Array)
+#18 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Migrations\\Migrator->run(Array, Array)
+#19 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(616): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#20 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(109): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#21 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(88): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->runMigrations()
+#22 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#23 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#24 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#25 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#26 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#27 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#28 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#29 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#30 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(1047): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#31 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(316): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#32 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#33 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#34 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1198): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#35 C:\\xampp\\htdocs\\project-ordereasy\\4_T\\OrderEasyL\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#36 {main}
+"} 

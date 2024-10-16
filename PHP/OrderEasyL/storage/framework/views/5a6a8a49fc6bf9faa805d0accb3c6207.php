@@ -1,0 +1,1 @@
+formulario de creacion<?php /**PATH C:\xampp\htdocs\project-ordereasy\4_T\OrderEasyL\resources\views\inventario\create.blade.php ENDPATH**/ ?>
