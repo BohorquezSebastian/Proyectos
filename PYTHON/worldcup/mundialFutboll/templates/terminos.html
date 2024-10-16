@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones</title>
+    <!-- Cargar etiquetas estáticas -->
+    {% load static %}
+    <!-- Relacionar CSS de Bootswatch -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css">
+    <!-- Relacionar CSS personalizado -->
+    <link rel="stylesheet" href="{% static 'css/descargaS.css' %}">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="{% static 'images/logo.png' %}" alt="Logo" height="100" class="mr-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="{% url 'equipos' %}">Equipos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'partidos' %}">Partidos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'noticias' %}">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'tabla' %}">Tabla de posiciones</a></li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <a href="{% url 'login' %}" class="btn btn-primary">Iniciar Sesión</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Términos y Condiciones</h1>
+            <p>Estos términos y condiciones describen las reglas y regulaciones para el uso de nuestro sitio web.</p>
+            
+            <h2>1. Aceptación de los términos</h2>
+            <p>Al acceder a este sitio web, asumimos que aceptas estos términos y condiciones en su totalidad. No continúes usando el sitio web si no aceptas todos los términos y condiciones establecidos en esta página.</p>
+            
+            <h2>2. Licencia</h2>
+            <p>A menos que se indique lo contrario, nosotros y/o nuestros licenciantes poseemos los derechos de propiedad intelectual de todo el material en el sitio web. Todos los derechos de propiedad intelectual están reservados. Puedes ver y/o imprimir páginas del sitio web para tu uso personal sujeto a las restricciones establecidas en estos términos y condiciones.</p>
+            
+            <h2>3. Uso aceptable</h2>
+            <p>No debes:</p>
+            <ul>
+                <li>Publicar material del sitio web en ningún otro medio.</li>
+                <li>Vender, alquilar o sublicenciar material del sitio web.</li>
+                <li>Reproducir, duplicar o copiar material del sitio web.</li>
+                <li>Redistribuir contenido del sitio web.</li>
+            </ul>
+            
+            <h2>4. Comentarios de los usuarios</h2>
+            <p>Partes de este sitio web ofrecen la oportunidad a los usuarios de publicar e intercambiar opiniones, información, material y datos ('Comentarios'). No filtramos, editamos, publicamos ni revisamos los Comentarios antes de su aparición en el sitio web. Los Comentarios no reflejan nuestros puntos de vista ni los de nuestros agentes o afiliados. Los Comentarios reflejan el punto de vista y la opinión de la persona que publica dicho punto de vista u opinión. En la medida en que lo permitan las leyes aplicables, no seremos responsables de los Comentarios ni de ningún costo de pérdida, responsabilidad, daños o gastos causados y/o sufridos como resultado de cualquier uso y/o publicación y/o apariencia de los Comentarios en este sitio web.</p>
+            
+            <h2>5. Hipervínculos a nuestro contenido</h2>
+            <p>Las siguientes organizaciones pueden enlazar a nuestro sitio web sin aprobación previa por escrito:</p>
+            <ul>
+                <li>Agencias gubernamentales;</li>
+                <li>Motores de búsqueda;</li>
+                <li>Organizaciones de noticias;</li>
+                <li>Distribuidores de directorios en línea cuando nos listan en el directorio pueden enlazar a nuestro sitio web de la misma manera que hacen hipervínculos a los sitios web de otras empresas listadas; y</li>
+                <li>Empresas acreditadas en todo el sistema, excepto organizaciones sin fines de lucro, centros comerciales de caridad y grupos de recaudación de fondos de caridad que no pueden hacer hipervínculos a nuestro sitio web.</li>
+            </ul>
+            
+            <h2>6. Responsabilidad del contenido</h2>
+            <p>No tendremos ninguna responsabilidad por cualquier contenido que aparezca en tu sitio web. Aceptas indemnizarnos y defendernos contra todas las reclamaciones que surjan de o basadas en tu sitio web. Ningún enlace(s) puede aparecer en cualquier página de tu sitio web o dentro de cualquier contexto que contenga contenido o materiales que puedan interpretarse como difamatorios, obscenos o criminales, o que infrinjan, violen o defiendan la infracción u otra violación de cualquier derecho de terceros.</p>
+            
+            <h2>7. Reserva de derechos</h2>
+            <p>Nos reservamos el derecho de solicitar que elimines todos los enlaces o cualquier enlace particular a nuestro sitio web. Apruebas eliminar de inmediato todos los enlaces a nuestro sitio web a solicitud. También nos reservamos el derecho de modificar estos términos y condiciones y su política de enlaces en cualquier momento. Al continuar enlazando a nuestro sitio web, aceptas estar obligado y seguir estos términos y condiciones de enlace.</p>
+            
+            <h2>8. Eliminación de enlaces de nuestro sitio web</h2>
+            <p>Si encuentras algún enlace en nuestro sitio web o cualquier sitio web vinculado objetable por cualquier motivo, puedes contactarnos sobre esto. Consideraremos solicitudes para eliminar enlaces, pero no estamos obligados a hacerlo ni a responder directamente.</p>
+            
+            <h2>9. Exención de responsabilidad</h2>
+            <p>En la medida máxima permitida por la ley aplicable, excluimos todas las representaciones, garantías y condiciones relacionadas con nuestro sitio web y el uso de este sitio web (incluidas, sin limitación, cualquier garantía implícita por ley en cuanto a calidad satisfactoria, idoneidad para el propósito y/o el uso de cuidado y habilidad razonables). Nada en esta exención de responsabilidad:</p>
+            <ul>
+                <li>Limitará o excluirá nuestra o tu responsabilidad por muerte o lesiones personales resultantes de negligencia;</li>
+                <li>Limitará o excluirá nuestra o tu responsabilidad por fraude o tergiversación fraudulenta;</li>
+                <li>Limitará cualquiera de nuestras o tus responsabilidades de cualquier manera que no esté permitida por la ley aplicable; o</li>
+                <li>Excluirá cualquiera de nuestras o tus responsabilidades que no pueden ser excluidas bajo la ley aplicable.</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 FIFA. Todos los derechos reservados.</p>
+        <a href="{% url 'privacidad' %}" class="text-white">Política de privacidad</a> | 
+        <a href="{% url 'terminos' %}" class="text-white">Términos y condiciones</a>
+    </footer>
+    
+    <!-- Relacionar JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
